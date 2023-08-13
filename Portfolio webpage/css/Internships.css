@@ -1,0 +1,149 @@
+body{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    color:white;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+     
+}
+nav ul{
+    padding:10px;
+    margin:50px;
+}
+nav ul a{
+    text-decoration: none;
+    color:white;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px red;
+    border-bottom: 2px solid transparent;
+    padding:30px;
+    margin:50px;
+    border-radius: 30px;
+    background-color: #ff004f;
+    box-shadow: 5px 5px 10px  grey;
+}
+nav ul a:hover{
+    background: skyblue;
+}
+
+.group{
+    position: relative;
+    top:50px;
+    padding:30px;
+}
+.DLK{
+    color:white;
+}
+.certificate{
+    float:right;
+    position: relative;
+    left:300px;
+}
+.DLK h1{
+    text-shadow: 2px 2px rgb(0, 110, 255);
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.DLK div{
+    width:60%;
+    text-align: justify;
+}
+.DLK p{
+    font-size: 25px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: serif;
+}
+.DLK li{
+    font-size: 22px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: serif;
+}
+.DLK h3{
+    font-size: 30px;
+    text-shadow: 2px 2px red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.DLK img{
+    
+    width:30%;
+    height:200px;
+    float:left;
+    padding:20px;
+}
+.EMCOG{
+    color:white;
+    position: relative;
+    top:300px;   
+}
+.certificate1{
+    float:right;
+    position: relative;
+    left:300px;
+}
+.EMCOG h1{
+    font-size: 50px;
+    text-shadow: 2px 2px rgb(0, 110, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+.EMCOG p{
+    font-size: 25px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em ;
+}
+.EMCOG h3{
+    font-size: 30px;
+    text-shadow: 2px 2px red;
+    font-family: 'Times New Roman', Times, serif;
+}
+.EMCOG li{
+    font-size: 22px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em ;
+}
+.EMCOG img{
+    width:30%;
+    height:200px;
+    float:left;
+    padding:20px;
+  
+}
+.EMCOG div{
+    width:60%;
+    text-align: justify;
+}
+.EGC{
+    color:white;
+    position: relative;
+    top:600px;
+}
+.certificate2{
+    float:right;
+    position: relative;
+    left:300px;
+}
+.EGC h1{
+    font-size: 40px;
+    text-shadow: 2px 2px rgb(0, 110, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+.EGC p{
+    font-size: 25px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em ;
+}
+.EGC img{
+    float: left;
+    padding:20px;
+    height:400px;
+    width:40%;
+}
+.EGC div{
+    width:60%;
+    text-align: justify;
+}

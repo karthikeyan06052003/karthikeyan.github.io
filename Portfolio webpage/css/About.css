@@ -1,0 +1,100 @@
+body{
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+    overflow-x: hidden;
+    color:white;
+    font-family:sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+#About{
+    display:flex;
+    justify-content: space-evenly;
+    padding:50px;
+    position:relative;
+    top:50px;    
+}
+.paragraph{
+    display:flex;
+    justify-content: center;
+    padding:50px;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px red;
+}
+.heading{
+    font-size: 50px;
+}
+.education{
+    border-style: inset;
+    width:30%;
+    padding:30px;
+    border-radius: 50px;
+    background-color: #262626;
+    box-shadow: 5px 5px 10px  lightskyblue;
+}
+.education img{
+    height:50px;
+    width:50px;
+    position: relative;
+    left:400px;
+}
+.education h1{
+    text-shadow: 2px 2px red;
+    font-size: 35px;
+    position: relative;
+    bottom:60px;
+}
+.education h3{
+    text-shadow: 2px 2px blueviolet;
+    font-size: 28px;
+    position: relative;
+    bottom:60px;
+    
+}
+#About p{
+    text-shadow: 1px 1px skyblue;
+    font-size: 25px;
+    position: relative;
+    bottom:50px;
+}
+.education:hover{
+    background: #ff004f;
+}
+.skills{
+    margin:50px;
+    border-style: inset;
+    width:30%;
+    height:30%;
+    padding:10px;
+    border-radius: 50px;
+    background-color: #262626;
+    box-shadow: 5px 5px 10px  lightskyblue;
+}
+.skills img{
+    height:50px;
+    width:50px;
+    position: relative;
+    left:360px;
+    top:20px;
+    background-color:white;
+}
+.skills h1{
+    text-shadow: 2px 2px red;
+    position:relative;
+    left:30px;
+    bottom:60px;
+    font-size: 40px;
+}
+.skills ul{
+    font-size: 25px;
+    text-shadow: 1px 1px skyblue;
+    position: relative;
+    bottom:60px;
+}
+.skills:hover{
+    background: #ff004f;
+}
