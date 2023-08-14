@@ -1,0 +1,446 @@
+body{
+    background-image: url(picture2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    position: relative;   
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    padding:20px;
+    border-radius: 50px;
+     
+}
+nav ul{
+    padding:10px;
+    margin:20px;
+}
+nav ul a{
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+    text-shadow: 2px 2px rgb(0, 110, 255);
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s ease; 
+    font-weight: 750;
+    box-shadow: 5px 5px 5px  lightskyblue;
+    
+}
+nav ul a:hover{
+    background: whitesmoke;
+    text-decoration: underline;
+    color:skyblue;  
+}
+
+.HOME:link{
+    border-radius: 60px;
+    background-color: #0F2027;
+    padding:10px;
+}
+.HOME:hover{
+    background: whitesmoke;
+}
+.ABOUT:link{
+    border-radius: 60px;
+    background-color: #0F2027;
+    padding:10px;
+}
+.INTERNSHIPS:link{
+    border-radius: 60px;
+    background-color: #0F2027;
+    padding:10px;
+}
+.PROJECTS:link{
+    border-radius: 60px;
+    background-color: #0F2027;
+    padding:10px;
+}
+.BB:link{
+    border-radius: 60px;
+    background-color: #0F2027;
+    padding:10px;
+}
+.BB:hover{
+    background: whitesmoke;
+}
+
+.paragraph{
+    border-radius: 50px;
+    background-color: #0F2027;
+    padding:30px;
+    opacity:0.7;
+    width:35%;
+    position: relative;
+    left:900px;
+    top:100px;
+   
+}
+.paragraph:hover{
+    opacity:1.0;
+}
+
+.p1{
+    font-size: 30px;
+    font-family: sans-serif;
+    color:white;
+}
+.p2{
+    color: white;
+    font-size: 50px;
+    position:relative;
+    bottom:30px;
+    font-family: serif;
+    text-shadow: 3px 3px #ff004f;
+
+}
+.p3{
+    font-size: 30px;
+    position:relative;
+    bottom:70px;
+    font-family: cursive;
+    color: white;
+    
+}
+.p4{
+    font-size: 25px;
+    width:100%;
+    text-align: justify;
+    position:relative;
+    bottom:60px;
+    font-family: serif;
+    color: white;
+}
+.paragraph1 p{
+    font-size: 22px;
+    width:50%;
+    text-align: justify;
+    font-family: cursive;
+}
+.icons{
+    display: flex;
+    position: relative;
+    left:920px;
+}
+.linkedin img{
+    position:relative;
+    right:80px;
+}
+.linkedin a{
+    position:relative;
+    top:20px;
+    text-decoration: none;
+    color:white;
+    text-shadow: 1px 1px red;
+    font-size: 20px;
+    transition: 0.1s all ease-in-out;
+    
+}
+.linkedin a:hover{
+    transform: scale(1.5);
+    background:#ff004f;
+    border-radius: 50px;
+    padding:5px;
+    
+
+}
+.instagram{
+    position:relative;
+    right:15px;
+}
+.instagram a{
+    position:relative;
+    top:20px;
+    right:70px;
+    text-decoration: none;
+    color:white;
+    text-shadow: 1px 1px red;
+    font-size: 20px;
+    transition: 0.1s all ease-in-out;
+   
+}
+.instagram a:hover{
+    transform: scale(1.5);
+    background:#ff004f;
+    border-radius: 50px;
+    padding:5px;
+}
+.phone{
+    position: relative;
+    right:20px;
+}
+.phone p{
+    color:white;
+    position:relative;
+    bottom:20px;
+    right:40px;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px red;
+}
+.phone img{
+    position: relative;
+    right:20px;
+}
+.phone p:hover{
+    border-bottom: 2px solid #ff004f;
+}
+.gmail{
+    position:relative;
+    right:35px;
+    
+}
+.gmail a{
+    position:relative;;
+    top:20px;
+    right:55px;
+    text-decoration: none;
+    color:white;
+    text-shadow: 1px 1px 2px red;
+    font-size: 20px;
+    transition: 0.1s all ease-in-out;
+    
+}
+.gmail a:hover{
+    transform: scale(1.5);
+    background:#ff004f;
+    border-radius: 50px;
+    padding:5px;
+}
+.btn.btn2{
+    display: inline-block;
+    background: #ff004f;
+    border-radius: 100px;
+    padding:15px;
+    position: relative;
+    left:1300px;
+    bottom: 100px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.2s all ease-in-out;
+}
+.btn.btn2:hover {
+    transform: scale(1.2); 
+}
+
+.skills{
+    margin:50px;
+    border-style: inset;
+    width:30%;
+    height:30%;
+    padding:10px;
+    border-radius: 50px;
+    background-color: #262626;
+    box-shadow: 5px 5px 10px  lightskyblue;
+}
+.skills img{
+    height:50px;
+    width:50px;
+    position: relative;
+    left:360px;
+    top:20px;
+    background-color:white;
+}
+.skills h1{
+    text-shadow: 2px 2px red;
+    position:relative;
+    left:30px;
+    bottom:60px;
+    font-size: 40px;
+}
+.skills ul{
+    font-size: 25px;
+    text-shadow: 1px 1px skyblue;
+    position: relative;
+    bottom:60px;
+}
+.skills:hover{
+    background: #ff004f;
+}
+
+/* bottom */
+#Skills{
+    color: white;
+    position:relative;
+    top:250px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+ }
+ .container1{
+    padding:30px;
+ }
+.Extraactivity{
+    position:relative;
+    left:30px;
+    font-size: 15px;
+    text-shadow: 2px 2px blueviolet;
+    padding:30px;
+    width:30%;
+    font-family: serif;
+    border-radius: 30px;
+    background-color: #0F2027;
+    opacity:0.9;
+    box-shadow: 5px 5px 10px grey;
+    transition: 0.1s all ease-in-out;
+}
+.Extraactivity:hover{
+    background: #ff004f;
+}
+.Extraactivity h1{
+    position: absolute;
+    bottom:35px;
+}
+
+.Extraactivity img{
+    height:40px;
+    width:40px;
+    position: relative;
+    top:40px;
+}
+.Extraactivity a{
+    text-decoration: none;
+    color: white;
+}
+
+.Extraactivity1{
+    position:relative;
+    left:30px;
+    font-size: 15px;
+    text-shadow: 2px 2px blueviolet;
+    padding:30px;
+    width:30%;
+    font-family: serif;
+    border-radius: 30px;
+    background-color: #0F2027;
+    opacity:0.9;
+    box-shadow: 5px 5px 10px grey;
+
+}
+.Extraactivity1:hover{
+    background: #ff004f;
+}
+.Extraactivity1 h1{
+    position: absolute;
+    bottom:35px;
+}
+.Extraactivity1 img{
+    height:50px;
+    width:50px;
+    position: relative;
+    top:35px;
+}
+.Extraactivity1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.Extraactivity2{
+    position:relative;
+    left:30px;
+    font-size: 15px;
+    text-shadow: 2px 2px blueviolet;
+    padding:30px;
+    width:30%;
+    font-family: serif;
+    border-radius: 30px;
+    background-color: #0F2027;
+    opacity:0.9;
+    box-shadow: 5px 5px 10px grey;
+
+}
+.Extraactivity2:hover{
+    background: #ff004f;
+}
+.Extraactivity2 h1{
+    position: absolute;
+    bottom:35px;
+}
+.Extraactivity2 img{
+    height:50px;
+    width:50px;
+    position: relative;
+    top:35px;
+}
+.Extraactivity2 a{
+    text-decoration: none;
+    color: white;
+}
+.Achievements{
+    position: relative;
+    top:80px;
+    left:500px;
+    text-shadow: 2px 2px blueviolet;
+    padding:30px;
+    width:30%;
+    height:50px;
+    font-size: 15px;
+    font-family: serif;
+    border-radius: 30px;
+    background-color: #0F2027;
+    opacity:0.9;
+    box-shadow: 5px 5px 10px grey;
+}
+.Achievements:hover{
+    background: #ff004f;
+}
+.Achievements h1{
+    position: absolute;
+    bottom: 40px;
+    color:white;
+}
+.Achievements img{
+    position: relative;
+    top:20px;
+}
+.Extraactivity3{
+    position:relative;
+    left:30px;
+    font-size: 15px;
+    text-shadow: 2px 2px blueviolet;
+    padding:3cqh;
+    width:30%;
+    font-family: serif;
+    border-radius: 30px;
+    background-color: #0F2027;
+    opacity:0.9;
+    box-shadow: 5px 5px 10px grey;
+}
+.Extraactivity3:hover{
+    background: #ff004f;
+}
+.Extraactivity3 h1{
+    position: absolute;
+    bottom:35px;
+}
+.Extraactivity3 img{
+    height:50px;
+    width:50px;
+    position: relative;
+    top:35px;
+}
+
+.Extraactivity3 a{
+    text-decoration: none;
+    color: white;
+}
+.container1{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top:120px;
+}
+
+
+
+
+
+
+
+

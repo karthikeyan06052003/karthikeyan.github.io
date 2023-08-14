@@ -1,0 +1,65 @@
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    color:white;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container2{
+    padding:20px;
+}
+.Hobbies h1{
+    text-shadow: 2px 2px rgb(0, 110, 255);
+    font-size: 45px;
+    text-align: center;
+}
+.Hobbies1 h2{
+    text-shadow: 2px 2px red;
+    font-size: 35px;
+}
+.Hobbies1 p{
+    width:90%;
+    font-size: 25px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+    letter-spacing: 1px;
+    text-align:justify;
+
+}
+.Hobbies1 img{
+    width:30%;
+    position: relative;
+    left:200px;
+   padding:20px;
+   margin:30px;
+   border-radius: 30px;
+    box-shadow: 5px 5px 10px  lightskyblue;
+}
+.Photography{
+    padding:30px;
+}
+.Photography h2{
+    text-shadow: 2px 2px red;
+    font-size: 35px;
+}
+.Photography p{
+    width:90%;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-align:justify;
+}
+.Photography img{
+    position: relative;
+    left:150px;
+    width:30%;
+    height:300px;
+    padding:20px;
+    margin:50px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px  lightskyblue;
+    
+}
