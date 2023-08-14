@@ -1,0 +1,161 @@
+body{
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    color:white;
+    padding:20px;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+     
+}
+nav ul{
+    padding:10px;
+    margin:50px;
+}
+nav ul a{
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px orangered;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s ease;
+    padding:20px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px  lightskyblue;
+}
+nav ul a:hover{
+    background: #ff004f;
+}
+.RADAR h1{
+    text-shadow: 2px 2px rgb(0, 110, 255);
+    font-size: 40px;
+}
+.RADAR p{
+    width:60%;
+    text-align: justify;
+    font-size: 25px;
+    text-shadow: 1px 1px red;
+}
+.RADAR li{
+    font-size: 22px;
+    text-shadow: 1px 1px gold;
+}
+
+.RADARimages img{
+    width:40%;
+    height:300px;
+    padding:20px;
+}
+.RADARimages1 img{
+    width:30%;
+    height:650px;
+    padding:20px;
+    display:flex;
+    position: relative;
+    left:950px;
+    bottom:900px;
+}
+.INDUSTRIES{
+    position: relative;
+    bottom:400px;
+}
+.INDUSTRIES h1{
+    text-shadow: 2px 2px rgb(0, 110, 255);
+    font-size: 40px;
+}
+.INDUSTRIES p{
+    width:60%;
+    text-align: justify;
+    font-size: 25px;
+    text-shadow: 1px 1px red;
+}
+.INDUSTRIES li{
+    font-size: 22px;
+    text-shadow: 1px 1px gold;
+}
+
+.INDUSTRIESimages img{
+    position: relative;
+    left:1000px;
+    bottom:1100px;
+    width:30%;
+    height: 30%;
+    padding:20px;
+    display:flex;
+
+}
+.INDUSTRIESimages1 img{
+    position: relative;
+    bottom:1200px;
+    width:40%;
+    height:50%;
+    padding:20px; 
+}
+.INDUSTRIESimages1 div img{
+    position: relative;
+    bottom:1250px;
+    width:40%;
+    height:10%;
+}
+.INDUSTRIESimages2 img{
+    position: relative;
+    bottom:1850px;
+    left:1000px;
+    width:30%;
+    height:600px;
+}
+
+.AIRPURIFIER{
+    position: relative;
+    bottom:1500px;
+}
+.AIRPURIFIER h1{
+    text-shadow: 2px 2px rgb(0, 110, 255);
+    font-size: 35px;
+}
+.AIRPURIFIER p{
+    width:60%;
+    text-align: justify;
+    font-size: 25px;
+    text-shadow: 1px 1px red;
+}
+.AIRPURIFIER li{
+    font-size: 22px;
+    text-shadow: 1px 1px gold;
+}
+.CAPimages img{
+    width:38%;
+    height: 420px;
+    position: relative;
+    bottom:2100px;
+    left:920px;
+}
+.CAPimages1 img{
+    width:20%;
+    position: relative;
+    bottom:1950px;
+    padding:50px;
+}
+.CANCER{
+    position: relative;
+    bottom:1500px;
+    
+}
+.CANCER h1{
+    text-shadow: 2px 2px rgb(0, 110, 255);
+    font-family: 40px;
+}
+.CANCER p{
+    width:60%;
+    text-align: justify;
+    font-size: 25px;
+    text-shadow: 1px 1px red;
+}
+
