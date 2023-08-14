@@ -1,0 +1,35 @@
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    color:white;
+    padding:20px;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.IV h1{
+    text-shadow: 2px 2px rgb(0, 110, 255);
+    font-size: 45px;
+}
+.IV1 h1{
+    text-shadow: 2px 2px red;
+    font-size: 30px;
+    
+}
+.IV1 p{
+    width:80%;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 25px;
+}
+.IVimages img{
+    width:40%;
+    height:400px;
+    padding:50px;
+    position:relative;
+    left:50px;
+    border-radius: 100px;
+}
